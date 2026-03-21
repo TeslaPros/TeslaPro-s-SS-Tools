@@ -1,0 +1,6 @@
+Command :
+
+(Run cmd as a admin)
+
+powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass && powershell Invoke-Expression (Invoke-RestMethod https://raw.githubusercontent.com/212xqo/DoomsDayDetector/refs/heads/main/DoomsDayClientDetector.ps1)
+
